@@ -84,7 +84,7 @@ public class ChatClientUI extends JFrame {
                 ChatClientUI client = new ChatClientUI(serverAddress, nombreUsuario);
                 client.setVisible(true);
             } else {
-                JOptionPane.showMessageDialog(null, "No se ingresaron datos válidos. El cliente se cerrará.");
+                JOptionPane.showMessageDialog(null, "No se ingresaron datos El cliente se cerrará.");
                 System.exit(0);
             }
         });
